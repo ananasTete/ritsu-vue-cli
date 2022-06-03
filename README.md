@@ -19,7 +19,9 @@
   5.1 定义.ejs模板文件，定义要生成的组件的模板 (template/components.vue.ejs)
   5.2 在/core/actions.js中定义 addcomp指令的 action
   5.3 封装编译ejs模板的函数，安装ejs包 (utils/compile.js)
-  5.4 封装将编译ejs模板的结果写入文件的函数 (utils/write.js)
+  5.5 封装判断传入的路径是否存在不存在就创建的函数
+  5.5 封装将编译ejs模板的结果写入文件的函数 (utils/write.js)
+  5.6 将三个封装函数在addcomp指令的 action函数中调用实现在指定的目录创建组件文件
 
 
 编写顺序：
